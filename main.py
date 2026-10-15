@@ -6,7 +6,7 @@ from collections import deque
 from fastapi import FastAPI, Request, Response
 from prometheus_client import Counter, generate_latest, CONTENT_TYPE_LATEST
 
-EMAIL = "your_email@example.com"   # <-- CHANGE THIS to your real email
+EMAIL = "23f3001733@dss.study.iitm.ac.in"   # <-- CHANGE THIS to your real email
 
 START_TIME = time.time()           # remember when we started (for uptime)
 LOGS = deque(maxlen=1000)          # notebook that keeps the last 1000 entries
